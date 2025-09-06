@@ -7,7 +7,7 @@ import io
 reader = easyocr.Reader(['en'])
 
 # Streamlit UI
-st.title("📷 OCR Extractor App")
+st.title("OCR Extractor App")
 st.write("Upload any image (meter reading, number plate, etc.) and extract text.")
 
 uploaded_files = st.file_uploader(
